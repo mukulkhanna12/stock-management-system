@@ -1,0 +1,167 @@
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.signUpbox{
+	background-color: white;
+	height: 500px;
+}
+
+.loginbox{
+	background-color: #08538C;
+	height: 500px;
+}
+.space{
+	padding:15px 0 15px 0; 
+}
+.sbutspace{
+	padding:12px 0 0 0; 
+}
+.inputStyle
+{
+	height: 45px;
+	width: 450px !important;
+}
+.inputStyleLogin
+{
+	height: 45px !important;
+	width: 300px !important;
+}
+.signUpButton
+{
+	width: 490px !important; 
+	height: 50px;
+	color: white;
+	font-size: 18px;
+	background-color: #FF0800 ;
+}
+.loginButton
+{
+	width: 340px !important; 
+	height: 50px;
+	color: white;
+	font-size: 18px;
+	background-color: #FF0800 ;
+}
+.sbutspace button:hover
+{
+	background-color: #7FFF00;
+}
+.radioStyle
+{
+	color:black;
+	font-size: 18px;
+}
+.radioStyleLogin
+{
+	color:white;
+	font-size: 18px;
+}
+.notMatch{
+	font-size: 30px; 
+}
+@media only screen and (max-width: 600px) {
+  
+  	.inputStyleLogin
+	{
+		height: 45px !important;
+		width: 280px !important;
+	}
+	.signUpbox{
+		background-color: white;
+		height: 500px;
+		width: 380px;
+		margin-left: 10px;
+	}
+	.loginbox{
+	background-color: #08538C;
+	height: 400px;
+	width: 380px;
+	margin-left: 10px;
+	margin-bottom: 50px;
+	}
+    .inputStyle
+		{
+			height: 45px;
+			width: 280px !important;
+		}
+	.signUpButton
+	{
+		width: 320px !important; 
+		height: 50px;
+		color: white;
+		font-size: 18px;
+		background-color: #FF0800;
+	}
+	.loginUpButton
+	{
+		width: 320px !important; 
+		height: 50px;
+		color: white;
+		font-size: 18px;
+		background-color: #FF0800 ;
+	}
+   }
+
+.styleBox
+{
+	background-color: white;
+	margin:10px 20px 10px 20px;
+	padding: 20px; 
+}
+.cust .mTop
+{
+margin-top:10px !important;
+}
+.cust .big
+{
+	font-size: 18px;
+}
+.admin .green
+{
+	font-size: 18px;
+	background-color:#91ED91;
+}
+.admin .red
+{
+	color:white;
+	font-size: 18px;
+	background-color:#FF2400;
+}
+.admin .mTop{
+margin-top:10px !important;
+}
+.uppercase{
+text-transform: uppercase;
+}
+.profile .font{
+	font-size: 20px;
+}
+.tb{
+	margin-top: 10px;
+	margin-bottom:20px;
+}
+.imagePic{
+	height: 300px;
+}
+.addmoney
+{
+	width: 800px;
+	height: 50px;
+	font-size: 20px;
+}
+@media only screen and (max-width: 600px) {
+ .addmoney
+{
+	width: 200px;
+	height: 50px;
+	font-size: 20px;
+} 
+}
+
+.cart hr{
+  border-top: 1px solid red;
+}
